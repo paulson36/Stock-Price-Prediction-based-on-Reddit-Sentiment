@@ -52,7 +52,7 @@ pip install -r requirements.txt
 - Data is scraped using **PRAW** (Python Reddit API Wrapper) from stock-related subreddits such as:
   - `r/stocks`
   - `r/investing`
-  - `r/Apple`
+  - `r/Wallstreetbets`
 
 - The data includes:
   - Title of the post
@@ -71,6 +71,38 @@ The data is collected from **January 2022 to November 2024**.
 
 ### **Economic Data:**
 - Economic indicators like **GDP**, **CPI**, and **Interest Rate** are fetched from **FRED (Federal Reserve Economic Data)** using the `fredapi` library.
+
+---
+
+## **Data Collection**
+
+### **Reddit Scraping (PRAW)**
+
+To collect Reddit posts related to stock movements, we use the **PRAW (Python Reddit API Wrapper)**. The process to scrape Reddit involves:
+
+- **Setting up Reddit API Access:**
+  - Create a Reddit application via [Reddit's Developer Portal](https://www.reddit.com/prefs/apps) to obtain a `client_id`, `client_secret`, and `user_agent`.
+  
+- **Fetching Reddit Posts:**
+  - Posts from subreddits like **r/stocks**, **r/investing**, and **r/Apple** are fetched. Posts are filtered by popularity (top posts) and are related to discussions about stocks.
+  
+- **Data Collected:**
+  - **Fields Collected**: Post title, score, number of comments, post date, and subreddit name.
+  - **Time Range**: Data is collected from **January 2022 to November 2024**.
+
+---
+
+### **Stock Data (Yahoo Finance - yfinance)**
+
+- Stock data for **Apple Inc. (AAPL)** is fetched using the **yfinance** library.
+- The data collection covers the stock prices, including **daily open, close, high, low**, and **volume**, from **January 2022 to November 2024**.
+
+---
+
+### **Economic Data (FRED API)**
+
+- Economic indicators such as **GDP**, **CPI**, and **Interest Rates** are fetched using the **FRED API** (Federal Reserve Economic Data).
+- This data is useful for analyzing the impact of macroeconomic factors on stock price predictions.
 
 ---
 
