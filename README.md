@@ -39,7 +39,7 @@ This project aims to predict stock movements, specifically for Apple Inc. (AAPL)
 
 ## **Getting Started**
 
-### ** Install Required Libraries**
+### **Install Required Libraries**
 
 You can install the required dependencies using `pip`:
 ```bash
