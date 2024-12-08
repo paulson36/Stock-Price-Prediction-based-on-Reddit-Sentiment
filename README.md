@@ -87,14 +87,10 @@ To collect Reddit posts related to stock movements, we use the **PRAW (Python Re
   - **Fields Collected**: Post title, score, number of comments, post date, and subreddit name.
   - **Time Range**: Data is collected from **January 2022 to November 2024**.
 
----
-
 ### **Stock Data (Yahoo Finance - yfinance)**
 
 - Stock data for **Apple Inc. (AAPL)** is fetched using the **yfinance** library.
 - The data collection covers the stock prices, including **daily open, close, high, low**, and **volume**, from **January 2022 to November 2024**.
-
----
 
 ### **Economic Data (FRED API)**
 
