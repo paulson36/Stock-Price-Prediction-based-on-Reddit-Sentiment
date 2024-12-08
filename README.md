@@ -52,7 +52,7 @@ pip install -r requirements.txt
 - Data is scraped using **PRAW** (Python Reddit API Wrapper) from stock-related subreddits such as:
   - `r/stocks`
   - `r/investing`
-  - `r/Wallstreetbets`
+  - `r/wallstreetbets`
 
 - The data includes:
   - Title of the post
@@ -81,7 +81,7 @@ To collect Reddit posts related to stock movements, we use the **PRAW (Python Re
   - Create a Reddit application via [Reddit's Developer Portal](https://www.reddit.com/prefs/apps) to obtain a `client_id`, `client_secret`, and `user_agent`.
   
 - **Fetching Reddit Posts:**
-  - Posts from subreddits like **r/stocks**, **r/investing**, and **r/Apple** are fetched. Posts are filtered by popularity (top posts) and are related to discussions about stocks.
+  - Posts from subreddits like **r/stocks**, **r/investing**, and **r/wallstreetbets** are fetched. Posts are filtered by popularity (top posts) and are related to discussions about stocks.
   
 - **Data Collected:**
   - **Fields Collected**: Post title, score, number of comments, post date, and subreddit name.
