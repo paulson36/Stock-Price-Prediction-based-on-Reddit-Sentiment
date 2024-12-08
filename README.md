@@ -72,9 +72,6 @@ The data is collected from **January 2022 to November 2024**.
 ### **Economic Data:**
 - Economic indicators like **GDP**, **CPI**, and **Interest Rate** are fetched from **FRED (Federal Reserve Economic Data)** using the `fredapi` library.
 
----
-
-## **Data Collection**
 
 ### **Reddit Scraping (PRAW)**
 
