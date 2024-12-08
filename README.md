@@ -1,11 +1,8 @@
 # Stock-Price-Prediction-based-on-Reddit-Sentiment
 This project aims to predict stock movements by analyzing sentiment data scraped from Reddit and combining it with financial and economic indicators. The primary focus is to evaluate the impact of sentiment on stock prices, especially for companies like Apple, and develop a robust predictive model.
 
-Here’s a detailed **README.md** template for your stock prediction project that covers everything from the start to the end. You can customize it further if needed.
 
 ---
-
-# Stock Movement Prediction Using Reddit Sentiment Analysis
 
 ## **Project Overview**
 
@@ -45,15 +42,7 @@ This project aims to predict stock movements, specifically for Apple Inc. (AAPL)
 
 ## **Getting Started**
 
-### **1. Clone the Repository**
-
-To get started with the project, clone the repository using the following command:
-```bash
-git clone https://github.com/yourusername/repositoryname.git
-cd repositoryname
-```
-
-### **2. Install Required Libraries**
+### ** Install Required Libraries**
 
 You can install the required dependencies using `pip`:
 ```bash
